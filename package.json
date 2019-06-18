@@ -1,0 +1,22 @@
+{
+  "name": "random-password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": "https://github.com/seonggukchoi/random-password.git",
+  "author": "seonggukchoi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.8",
+    "ts-node": "^6.2.0",
+    "tslint": "^5.17.0"
+  },
+  "dependencies": {
+    "typescript": "^3.5.2"
+  }
+}
